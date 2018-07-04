@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<addon id="obrerostudio" version="0.0.1" name="Obrero Studio" provider-name="obrerosoft">
+	<requires></requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Obrero Studio</summary>
+		<description>User video library</description>
+		<platform>all</platform>
+	</extension>
+</addon>
